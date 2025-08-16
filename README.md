@@ -54,3 +54,7 @@ npm install
 npm run dev   # if using Vite
 npm start     # if using CRA
 ```
+
+## 📜 License: 
+MIT — free to use and modify.
+
