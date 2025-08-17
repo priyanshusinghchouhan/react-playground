@@ -1,4 +1,4 @@
-# 🧑‍💻 React Mini Projects Collection  
+# 🧑‍💻 React useEffect Hook 
 
 This repository contains a collection of **basic React projects** I built while learning **useEffect Hooks**.  
 Each project focuses on one or two key React concepts to help me build strong fundamentals.  
@@ -77,7 +77,7 @@ It allows you to:
 ## 🛠️ Tech Stack  
 - **React (Hooks)**  
 - **JavaScript (ES6+)**  
-- **HTML & CSS (basic styling)**  
+- **HTML & CSS (basic styling - that are provide in vite package when you install React with it)**  
 
 ---
 
