@@ -48,7 +48,7 @@ I created this repo as a **React learning hub** to push every piece of code I wr
 Clone the repo and install dependencies:  
 
 ```bash
-git clone https://github.com/your-username/react-playground.git
+git clone https://github.com/priyanshusinghchouhan/react-playground.git
 cd react-playground
 npm install
 npm run dev   # if using Vite
