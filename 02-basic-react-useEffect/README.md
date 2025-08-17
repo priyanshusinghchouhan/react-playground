@@ -85,5 +85,18 @@ It allows you to:
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/react-mini-projects.git
-   cd react-mini-projects
+   git clone https://github.com/priyanshusinghchouhan/02-basic-react-useEffect.git
+   cd 02-basic-react-useEffect
+   ```
+
+2. Install dependencies
+   ```
+   npm install
+   ```
+
+3. Start the development server
+   ```
+   npm run dev   # if using Vite
+   # or
+   npm start     # if using CRA
+   ```
