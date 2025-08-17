@@ -100,3 +100,15 @@ It allows you to:
    # or
    npm start     # if using CRA
    ```
+
+## 📖 Learning Notes
+
+Through these projects, I explored:
+
+- ✅ When useEffect runs (initial mount, dependency updates)
+- ✅ Cleanup functions and their role in avoiding memory leaks
+- ✅ The difference between state updates and side effects
+- ✅ How React re-renders and how effects tie into that lifecycle
+
+## 📜 License
+  MIT License – Feel free to use and learn from these examples.
