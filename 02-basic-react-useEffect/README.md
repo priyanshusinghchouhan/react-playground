@@ -1,12 +1,89 @@
-# React + Vite
+# 🧑‍💻 React Mini Projects Collection  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a collection of **basic React projects** I built while learning **useEffect Hooks**.  
+Each project focuses on one or two key React concepts to help me build strong fundamentals.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Focus on `useEffect`  
 
-## Expanding the ESLint configuration
+The **`useEffect` hook** is one of the most powerful and commonly used hooks in React.  
+It allows you to:  
+- Run code after the component renders  
+- Handle **side effects** like API calls, subscriptions, event listeners  
+- Perform **cleanup** to avoid memory leaks (like clearing intervals or timeouts)  
+- Control execution with **dependency arrays**  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 In these projects, I practiced `useEffect` with:  
+- Setting **timers and intervals** (`setTimeout`, `setInterval`)  
+- Updating the **DOM directly** (`document.title`)  
+- Logging and tracking **component lifecycle**  
+- Handling **async-like behavior** with delays  
+- Running cleanup functions  
+
+---
+
+## 📂 Projects Included  
+
+### 1. 💰 Bank Data & Income Tax Calculator  
+- Simulates delayed bank + exchange data using `setTimeout`.  
+- Calculates income tax once data is available.  
+
+👉 **Concepts Practiced:**  
+- `useEffect` for simulating API fetch delays  
+- Updating state asynchronously  
+
+---
+
+### 2. ⏰ Real-time Clock with Greetings  
+- Displays a **live digital clock** updating every second.  
+- Greets user depending on the time of day.  
+
+👉 **Concepts Practiced:**  
+- `useEffect` with `setInterval` + cleanup  
+- Time formatting & conditional logic  
+
+---
+
+### 3. 🖥️ Console Logger  
+- Logs **re-render counts** when the state changes.  
+- Demonstrates `useEffect` cleanup with console logs.  
+
+👉 **Concepts Practiced:**  
+- Understanding how `useEffect` runs after every render  
+- Cleanup functions firing before the next effect  
+
+---
+
+### 4. 📝 Title Updater  
+- Updates the **browser tab title** dynamically from input.  
+
+👉 **Concepts Practiced:**  
+- DOM side effects with `document.title`  
+- Dependency arrays in `useEffect`  
+
+---
+
+### 5. ✅ To-Do App  
+- Add & remove tasks from a list with unique IDs.  
+- Simple project without `useEffect`, but complements the collection.  
+
+👉 **Concepts Practiced:**  
+- State management with arrays  
+- Controlled components  
+
+---
+
+## 🛠️ Tech Stack  
+- **React (Hooks)**  
+- **JavaScript (ES6+)**  
+- **HTML & CSS (basic styling)**  
+
+---
+
+## 🚀 How to Run Locally  
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/react-mini-projects.git
+   cd react-mini-projects
