@@ -1,10 +1,10 @@
-# React `useContext` – Interactive README
+# React `useContext` Hook
 
 > A hands-on guide built from your two context examples: **Theme** (light/dark) and **User** (name toggle).
 
 ---
 
-## 🎯 What you built
+## 🎯 What I have built ?
 
 You implemented **two independent React Contexts** and demonstrated how to:
 
