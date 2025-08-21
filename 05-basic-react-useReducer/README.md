@@ -1,13 +1,10 @@
-<<<<<<< HEAD
-
-=======
 # React `useReducer` – Interactive README
 
 > A hands-on guide built from your two reducer examples: **Counter** and **Todo List**.
 
 ---
 
-## 🎯 What you built
+## 🎯 What I built ?
 
 You implemented **two independent reducers** and demonstrated how to:
 
