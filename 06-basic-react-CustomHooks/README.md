@@ -34,7 +34,7 @@ They are simply **functions that start with `use`** and can call other hooks (`u
 
 ---
 
-## 🔩 Summary of your examples
+## 🔩 Summary of examples
 
 ### 1) `useMousePosition`
 
@@ -130,11 +130,11 @@ Instead of bloating components with `useEffect` & listeners, you:
 
 ## 🧾 TL;DR Summary
 
-* You created three reusable custom hooks (`useMousePosition`, `useOnlineStatus`, `useWindowWidth`).
+* I created three reusable custom hooks (`useMousePosition`, `useOnlineStatus`, `useWindowWidth`).
 * Each encapsulated state + effects into a single hook.
 * Components stayed clean and only consumed returned values.
 * Custom hooks make logic **reusable, organized, and testable**.
 
 ---
 
-Built with ⚡ by Priyanshu’s React learning journey.
+Built with ⚡ by Priyanshu- my React learning journey.
