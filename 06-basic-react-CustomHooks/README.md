@@ -1,20 +1,20 @@
 
 # ⚡React `Custom Hooks`
 
-> A hands-on guide built from your three custom hooks: **Mouse Position**, **Online Status**, and **Window Width**.
+> A hands-on guide built from my three custom hooks: **Mouse Position**, **Online Status**, and **Window Width**.
 
 ---
 
 ## 🎯 What I built ?
 
-You implemented **three custom React hooks** and demonstrated how to:
+I implemented **three custom React hooks** and demonstrated how to:
 
 * Encapsulate reusable logic into custom hooks
 * Use `useState` and `useEffect` inside hooks
 * Return values from hooks for use in components
 * Keep components **clean** by moving side-effect logic out
 
-Custom hooks you built:
+Custom hooks I built:
 
 1. **useMousePosition** → tracks mouse `x, y` coordinates
 2. **useOnlineStatus** → detects online/offline status of the browser
