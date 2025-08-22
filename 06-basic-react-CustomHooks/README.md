@@ -1,5 +1,5 @@
 
-# React Custom Hooks – Interactive README
+# ⚡React `Custom Hooks`
 
 > A hands-on guide built from your three custom hooks: **Mouse Position**, **Online Status**, and **Window Width**.
 
