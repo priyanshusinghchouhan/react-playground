@@ -1,12 +1,12 @@
 # React Router (react-router-dom) – Interactive README
 
-> A hands-on guide built from your practice with **react-router-dom**.
+> A hands-on guide built from practice on **react-router-dom**.
 
 ---
 
-## 🎯 What you built
+## 🎯 What I built ?
 
-You implemented a basic **multi-page navigation system** using `react-router-dom` v6, and demonstrated how to:
+I implemented a basic **multi-page navigation system** using `react-router-dom` v6, and demonstrated how to:
 
 * Set up routes with `<Routes>` and `<Route>`
 * Create links with `<Link>` to navigate between pages
@@ -36,7 +36,7 @@ Without React Router, you’d have to conditionally render based on `window.loca
 
 ---
 
-## 🔩 Summary of your example
+## 🔩 Summary of my example
 
 * Navigation bar with `<Link>` elements → changes the URL without reload.
 * `<Routes>` acts as a container, holding multiple `<Route>` components.
@@ -117,5 +117,5 @@ For example:
 
 ---
 
-Built with ⚡ by Priyanshu’s React learning journey.
+Built with ⚡ by Priyanshu - my React learning journey.
 
