@@ -1,4 +1,4 @@
-# Recoil – My Notes  
+# Recoil – State Mangement Library
 
 I’ve started learning **Recoil** for state management in React, and here’s what I practiced and built.  
 This was my first time working with atoms, selectors, and async data in Recoil, and I tested out multiple features step by step. ⚡  
