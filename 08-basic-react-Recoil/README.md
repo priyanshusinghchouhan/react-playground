@@ -47,4 +47,7 @@ I worked on **five main examples** while exploring Recoil:
 ---
 
 ## 🔩 My Mental Model  
+- Atoms → hold state
+- Selectors → derive/combine/async fetch
+- Components → subscribe to atoms/selectors with hooks
 
