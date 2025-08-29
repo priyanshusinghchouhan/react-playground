@@ -5,7 +5,7 @@ This was my first time working with atoms, selectors, and async data in Recoil, 
 
 ---
 
-## 🎯 What I built  
+## 🎯 What I built ?
 I worked on **five main examples** while exploring Recoil:  
 
 1. **Atoms + Selectors (Basic Notifications)**  
@@ -50,4 +50,58 @@ I worked on **five main examples** while exploring Recoil:
 - Atoms → hold state
 - Selectors → derive/combine/async fetch
 - Components → subscribe to atoms/selectors with hooks
+
+
+Hooks I used:  
+- `useRecoilValue(atomOrSelector)` → read only  
+- `useRecoilState(atom)` → read + write  
+- `useSetRecoilState(atom)` → write only  
+
+---
+
+## ✅ Checklist I followed  
+- [x] Installed Recoil and wrapped app with `<RecoilRoot>`  
+- [x] Created atoms with `atom({ key, default })`  
+- [x] Derived state with selectors  
+- [x] Used `useRecoilState`, `useRecoilValue`, `useSetRecoilState`  
+- [x] Tried async selectors with axios  
+- [x] Practiced with `atomFamily` & `selectorFamily`  
+
+---
+
+## 🧭 When I’ll use Recoil again  
+- When I need **shared global state** across components.  
+- For managing **notifications, theme, auth, todos, or API data**.  
+- When scaling apps with **dynamic sets of data** (atom families).  
+- For computed values like totals, derived data, or filtering.  
+
+---
+
+## 🪤 Things I learned to avoid  
+- Always give **unique keys** to atoms/selectors (otherwise errors).  
+- Don’t mutate state directly → always return new objects/arrays.  
+- Async selectors must handle loading/error (not just success).  
+- Overusing atom families → use them when scaling, not for everything.  
+
+---
+
+## 🧪 Next challenges for me  
+- Implement **loading and error states** for async selectors.  
+- Create a **global auth state** with Recoil.  
+- Build a **shopping cart** using atoms + selectors.  
+- Try **Recoil + React Suspense** for better async handling.  
+- Explore persistence (saving atom values in localStorage).  
+
+---
+
+## 📝 TL;DR  
+- Learned atoms, selectors, async selectors, atomFamily, and selectorFamily.  
+- Built notification counters, async fetch examples, and dynamic todos.  
+- Recoil feels like **Redux but lighter and easier to use**.  
+- Excited to use this in bigger projects.  
+
+---
+
+🔥 Part of my React learning journey (by Priyanshu).  
+
 
